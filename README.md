@@ -7,3 +7,7 @@
  - [x] O usuário deve ser notificado se algo além de um 0 ou 1 foi inserido
  - [x] O usuário visualiza os resultados em um único campo de saída contendo o decimal (base 10) equivalente ao número binário que foi inserido
  - [x] O usuário pode inserir um número variável de dígitos binários
+
+> Home
+
+![Home](https://github.com/bruno-ralmeida/bin2decimal/blob/main/image-project/home.png?raw=true)

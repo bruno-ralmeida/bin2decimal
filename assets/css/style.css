@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #020204 no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bin2decimal {
+  border: 3px solid #22b455;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
+  width: auto;
+}
+
+.form_convert {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_convert label, h2, h3, input, button {
+  text-transform: capitalize;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.form_convert label, h2, h3{
+  color: #22b455;
+
+}
+
+.form_convert input:disabled, .form_convert input {
+  background: #fefefe;
+  border: none;
+}
+
+.form_convert input:focus {
+  outline: none;
+}
+
+.form_convert input, .form_convert button {
+  font-size: 18px;
+  margin: 1em 0;
+  padding: .5em;
+}

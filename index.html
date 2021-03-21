@@ -4,30 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Bin2Dec</title>
   </head>
   <body>
     <main>
-      <form>
-        <label for="bin"> bin </label>
-        <input type="text" maxlength="8" name="bin" id="bin"/>
-        <label for="decimal">decimal</label>
-        <input type="text"/>
-        <button>convert</button>
-      </form>
+      <div class="bin2decimal">
+        <h2>Bin2Dec</h2>
+        <h3>Binary to Decimal Converter</h3>
+        <form class="form_convert">
+          <label for="bin"> bin </label>
+          <input type="text" maxlength="8" name="bin" id="bin" />
+          <label for="decimal">decimal</label>
+          <input type="text" id="decimal" disabled />
+          <button id="btnConvert">convert</button>
+        </form>
+      </div>
     </main>
-    <script>
-      var iptBin = document.querySelector('#bin') 
-      var bin = []
-    
-      function convert(arr) {
-        let decimal = 0;
-
-        for (i = arr.length-1; i >= 0; i--) {
-          if (arr[i] > 0) decimal += Math.pow(2, i);
-        }
-        return decimal;
-      }
-    </script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
